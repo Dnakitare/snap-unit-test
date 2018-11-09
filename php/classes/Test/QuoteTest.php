@@ -89,6 +89,7 @@ class QuoteTest extends QuoteTestSetup {
 		$this->assertEquals($pdoQuote->getQuoteAuthor(), $quote->getQuoteAuthor());
 		$this->assertEquals($pdoQuote->getQuotePoster(), $quote->getQuotePoster());
 		$this->assertEquals($pdoQuote->getQuoteRating(), $quote->getQuoteRating());
+		var_dump($this->testValidQuoteInsert());
 	}
 
 
